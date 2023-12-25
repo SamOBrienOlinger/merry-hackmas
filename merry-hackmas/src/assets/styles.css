@@ -1,3 +1,11 @@
+@font-face {
+  font-family: 'Harrington';
+  src: local('Harrington'), url('./assets/fonts/harrington.woff2') format('woff2'),
+       url('./assets/fonts/harrington.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
 body {
     font-family: 'Arial', sans-serif;
     background-color: #f0f0f0;
@@ -5,7 +13,8 @@ body {
   }
 
  h1, h2, p {
-    text-align: center;
+  font-family: 'Harrington', 'cursive', 'sans-serif';  
+  text-align: center;
   }  
   
   .container {
